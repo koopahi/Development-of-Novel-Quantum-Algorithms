@@ -32,11 +32,16 @@ Ensure your repository does not contain any personal or team tokens/access infor
 
 ### Team Information:
 Team Member 1:
+
 Full Name: Etan Abbas Ehsanfar
+
 Womanium Program Enrollment ID : WQ24-EhfdC7K4c5bv6dj
 
+
 Team Member 2:
+
 Full Name: Elnaz Koopahi
+
 Womanium Program Enrollment ID : WQ24-hyz90NA3W6ug2ff
 
 
