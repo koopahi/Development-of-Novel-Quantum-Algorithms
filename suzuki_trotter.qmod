@@ -1,0 +1,21 @@
+qfunc main(a: real, x: real, output qba: qbit[]) {
+  allocate(3, qba);
+  suzuki_trotter([
+    PauliTerm {
+      pauli=[
+        Pauli::X,
+        Pauli::X,
+        Pauli::Z
+      ],
+      coefficient=1
+    },
+    PauliTerm {
+      pauli=[
+        Pauli::Y,
+        Pauli::X,
+        Pauli::Z
+      ],
+      coefficient=0.5
+    }
+  ], 0.01, 1, 1, qba);
+}
